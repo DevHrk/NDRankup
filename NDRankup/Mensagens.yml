@@ -1,0 +1,138 @@
+#Caso não queira nenhuma mensagem deixe ''
+#
+#Tipos:
+#
+# mensagem: <mensagem> - Envia uma mensagem para o player
+# broadcast: <mensagem> - Envia uma mensagem broadcast
+# json: <mensagem> - Envia uma mensagem json
+# actionbar: <mensagem> - Envia uma mensagem actionbar
+# title: <mensagem> - Envia uma mensagem title
+# titlesub: <titulo>:<subtitulo> - Envia uma mensagem com titulo e com subtitulo
+#
+#   --------=JSON MESSAGE=--------
+#
+# 'json: <mensagem> /-/<mensagem> : ttp> <msgclicavel> : url> <url>/-/' - exemplo
+# ': ttp> <mensagem>' - utilizado antes de todos os comandos
+# '/-/ <mensagem> : ttp> <mensagem> : url> <mensagem>/-/' - cria uma url para se clicar
+# '/-/ <mensagem> : ttp> <mensagem> : exe> <comando>/-/' - executa um comando
+# '/-/ <mensagem> : ttp> <mensagem> : sgt> <comando>' - utilizado para dar uma sugestão de comando
+# 
+# {player} - É trocado pelo nome do player
+# \n - pula linha
+#  
+
+Geral:
+  Player-Offline: "mensagem: &cEste player não esta online no momento ou não existe."
+  Sem-perm: "mensagem: &cVocê não possui permissão para utilizar este comando."
+  Console-Nao-Pode: "mensagem: &cO console nao pode usar este comando."
+  Falha-Ao-Salvar: "mensagem: &c[ERRO] Nao foi possivel salvar o arquivo {arquivo}!"
+  Falha-Ao-Criar-Pasta: "mensagem: &c[ERRO] Nao foi possivel criar a pasta {pasta}!"
+  Falha-Ao-Criar-Arquivo: "mensagem: &c[ERRO] Nao foi possivel criar o arquivo {arquivo}!"  
+  
+Mensagens:
+  Jogadores: 'mensagem: &cEsse comando pode ser utilizado apenas pelos jogadores.'
+  
+Menu:
+  Sem-Cash: "mensagem: &cVocê não possui Cash para isso."
+  Sem-Money: "mensagem: &cVocê não possui Money para isso."
+  Comprado: "mensagem: &aComprado com sucesso."
+  
+SetSpawn:
+  SetSpawn-Comando-Incorreto: "mensagem: &cComando incorreto, use /setspawn <normal&8/&cvip>"
+  SetSpawn-Normal-Definido: "mensagem: &aSpawn principal definido com sucesso."
+  SetSpawn-Vip-Definido: "mensagem: &aSpawn &eVip&a definido com sucesso."  
+
+Spawn:
+  Spawn-Comando-Incorreto: "mensagem: &cComando incorreto, use /spawn <normal&8/&cvip> <player>"
+  Iniciando-Teleporte-Spawn: "mensagem: &eEm {tempo} segundos você ira para o spawn."
+  Teleportado-Com-Sucesso-Spawn: "mensagem: &aTeleportado com sucesso para o spawn."
+  Teleportado-Outro-Com-Sucesso-Spawn: "mensagem: &a{player} teleportado para o spawn."
+  Teleportado-Outro-Com-Sucesso-Spawn-Vip: "mensagem: &a{player} teleportado para o spawn VIP."
+  Teleportado-Para-Spawn: "mensagem: &aVocê foi teleportardo para o spawn."
+  Teleportado-Para-Spawn-Vip: "mensagem: &aVocê foi teleportardo para o spawn VIP."  
+
+Teleport:
+  lore: 'Teleporte-se até um mundo.'
+  Teleportado: 'mensagem: &aTeleportado com sucesso.'
+  Mundo: 'mensagem: &cMundo não encontrado.'
+
+Medalha:
+  Error: 'mensagem: &c&lERRO! &cA medalha selecionada não existe, ou você não possui permissão para usar!'
+  MedalhaSetada: 'actionbar: &aAgora, todos os jogadores irão visualizar sua medalha como: {medalha}'
+  Perfil: 'mensagem &cOcorreu um erro ao carregar o perfil do jogador.'
+  TrocarTagF: 'mensagem: &cNão é possível trocar de medalha com o &c&n/FAKE ATIVADO&f!'
+  TrocarTagP: 'mensagem: &cNão é possível trocar de medalha &c&nDURANTE UMA PARTIDA&f!'
+  LimiteDeCaracteres:
+  - "mensagem: &cPassara do limite de caracteres permitido."
+  - "mensagem: &cPor favor, escolha uma tag mais curta."
+  
+Skin:
+  Adicionado: 
+  - 'actionbar: &aSkin {skinname} equipada com sucesso!'
+  - 'mensagem: &b&lSKIN &e&l-> &fVocê escolheu a skin {skinname}.'
+  - 'mensagem: &fUtilize &e/skin atualizar&f para remover a skin.'
+  removida: 'actionbar: &aSkin {skinname} removida com sucesso!'
+  semSkin: 'actionbar: &cA skin não esta equipada!'
+
+Vanish:
+  SemPerm: 'mensagem: &cVocê não possui permissão para utilizar este comando.'
+  Desativado: 'mensagem: &cModo invisível desativado.'
+  Ativado: 'mensagem: &aModo invisível ativado.'
+  Invisivel: 'actionbar: &aVocê está invisível para os outros jogadores!'
+  
+Fly:
+  SemPerm: 'mensagem: &eprecisa ser &aVip&e ou superior, para executar este comando!'
+  Lobby: 'mensagem: &cVocê precisa está em um lobby, para executar este comando.'
+  Desativado: 'mensagem: &cModo voar desativado!'
+  Ativado: 'mensagem: &aModo voar ativado!'
+
+Ping:
+  Ping-Comando-Incorreto: "mensagem: &cComando incorreto, use /ping <player>"
+  Seu-Ping: "mensagem: &aSeu ping é %ping%ms."
+  Player-Ping: "mensagem: &aO ping de %player% é %ping%ms."
+  Jogador: 'mensagem: &cEste jogador não está online.'
+  Console-Nao-Pode: "mensagem: &cO console nao pode usar este comando."
+  
+ChangeSkin:
+  no-perm: 'json: \n&eDesculpe você não possui permissão para alterar sua skin\n/-/&bCompre VIPS em nossa loja para desbloquear esta função! : ttp>&7Clique aqui para ir até nossa loja! : url>https://jogar.com.br/-/ \n'    
+  event: 'json: \n&aDigite o nick da skin que você deseja no chat\n&7Ou clique /-/&7&lAQUI : ttp>&7Clique para cancelar! : exe>event.cancel_skin/-/ &7para cancelar essa operação\n'
+  event-cancelled: 'mensagem: &cMudança de skin cancelada.'
+    
+Gamemode:
+  Mudou: 'mensagem: &aAgora você está no &e{modo}'
+  MudouStaff: 'mensagem: &aO staff &e{player}&a mudou seu modo de jogo para &e{modo}'
+  Jogador: 'mensagem: &cEste jogador não está online.'
+  SemPerm: 'mensagem: &eprecisa ser &4gerente&e ou superior, para executar este comando!'
+  Comando-Errado: 'mensagem: &cIncorreto, use /gm (0,1,2,3) (player)' 
+
+ClearChat:
+  Avisar-Que-O-Chat-Foi-Limpo: true
+  Aviso-Que-O-Chat-Limpo-Global: "broadcast: &aO chat foi limpo por %player%!"
+  SemPerm: 'mensagem: &eprecisa ser &4gerente&e ou superior, para executar este comando!'
+  
+Speed:
+  Speed-Comando-Incorreto: 
+  - 'mensagem: &cComando incorreto, use:' 
+  - 'mensagem: &c/speed clear [player] &8-&7 Para resetar a velocidade do player.'
+  - 'mensagem: &c/speed <velocidade> [player] &8-&7 Para alterar a velocidade do player.'
+  Jogador: 'mensagem: &cEste jogador não está online.'
+  Numero-Invalido: "mensagem: &cO número '%numero%' não é um número valido."
+  Speed-Alterado-Voce: "mensagem: &aVelocidade alterada com sucesso para %speed%."
+  Speed-Alterado-Outro: "mensagem: &aVelocidade de %player% alterada com sucesso para %speed%."
+  Speed-Valor-Invalido: "mensagem: &cVelocidade inválida! Você deve usar um valor entre &70 &ce &71 &ccomo por exemplo &70.5&c."
+  SemPermissao: 'mensagem: &eprecisa ser &4gerente&e ou superior, para executar este comando!'
+  Speed-Outro-Sem-Permissao: 'mensagem: &eprecisa ser &4gerente&e ou superior, para executar este comando!'
+
+TagCommand:
+  Limitacao: 'mensagem: &c&lLIMITAÇÃO &cNão foi possível trocar durante a partida&f!'
+  TagNaoExiste: 'mensagem: &cEsta tag que você digitou não existe ou você não possui permissão para utilizá-la!'
+  JaComATag: 'mensagem: &cVocê já está com a tag'
+  naopossui: 'mensagem: &cVocê não possui tags disponíveis.'
+  LimiteDeCaracteres:
+  - "mensagem: &cPassara do limite de caracteres permitido."
+  - "mensagem: &cPor favor, escolha uma tag mais curta."
+  Setado: 
+  - 'mensagem: &aTag: {tag} &asetada com sucesso!'
+  - 'actionbar: &fVocê e os jogadores agora irão visualizar sua tag como: {tag}'
+
+  

@@ -1,0 +1,5 @@
+name: NDRankup
+version: 1.0
+main: me.nd.rankup.Main
+api-version: 1.13
+depend: [Vault]

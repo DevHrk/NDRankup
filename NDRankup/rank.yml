@@ -1,0 +1,272 @@
+ranks:
+  rank1:
+    order: 1
+    tag: '&7[LUTADOR]'
+    name: '&7LUTADOR'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 710
+    rankup:
+      commands:
+        - 'give {player} diamond 1'
+      messages:
+        chat: '&7O jogador &7{player} &7subiu para &7LUTADOR&7!'
+        actionbar: '&7{player} subiu para LUTADOR!'
+        title: '&7LUTADOR'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&7Você subiu para o LUTADOR!'
+        actionbar: '&7Parabéns pelo LUTADOR!'
+        title: '&7LUTADOR'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank2:
+    order: 2
+    tag: '&f[GLADIADOR]'
+    name: '&fGLADIADOR'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 940
+    rankup:
+      commands:
+        - 'give {player} emerald 2'
+      messages:
+        chat: '&fO jogador &7{player} &fsubiu para &7GLADIADOR&f!'
+        actionbar: '&f{player} subiu para GLADIADOR!'
+        title: '&fGLADIADOR'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&fVocê subiu para o GLADIADOR!'
+        actionbar: '&fParabéns pelo GLADIADOR!'
+        title: '&fGLADIADOR'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank3:
+    order: 3
+    tag: '&c[ARQUEIRO]'
+    name: '&cARQUEIRO'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 1190
+    rankup:
+      commands:
+        - 'give {player} gold_ingot 3'
+      messages:
+        chat: '&cO jogador &7{player} &csubiu para &7ARQUEIRO&c!'
+        actionbar: '&c{player} subiu para ARQUEIRO!'
+        title: '&cARQUEIRO'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&cVocê subiu para o ARQUEIRO!'
+        actionbar: '&cParabéns pelo ARQUEIRO!'
+        title: '&cARQUEIRO'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank4:
+    order: 4
+    tag: '&a[SOLDADO]'
+    name: '&aSOLDADO'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 1460
+    rankup:
+      commands:
+        - 'give {player} iron_ingot 5'
+      messages:
+        chat: '&aO jogador &7{player} &asubiu para &7SOLDADO&a!'
+        actionbar: '&a{player} subiu para SOLDADO!'
+        title: '&aSOLDADO'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&aVocê subiu para o SOLDADO!'
+        actionbar: '&aParabéns pelo SOLDADO!'
+        title: '&aSOLDADO'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank5:
+    order: 5
+    tag: '&9[GENERAL]'
+    name: '&9GENERAL'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 1750
+    rankup:
+      commands:
+        - 'give {player} coal 10'
+        - 'lp user {player} permission set home.limit.2'
+      messages:
+        chat: '&9O jogador &7{player} &9subiu para &7GENERAL&9!'
+        actionbar: '&9{player} subiu para GENERAL!'
+        title: '&9GENERAL'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&9Você subiu para o GENERAL!'
+        actionbar: '&9Parabéns pelo GENERAL!'
+        title: '&9GENERAL'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank6:
+    order: 6
+    tag: '&e[COMANDANTE]'
+    name: '&eCOMANDANTE'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 2060
+    rankup:
+      commands:
+        - 'give {player} redstone 10'
+      messages:
+        chat: '&eO jogador &7{player} &esubiu para &7COMANDANTE&e!'
+        actionbar: '&e{player} subiu para COMANDANTE!'
+        title: '&eCOMANDANTE'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&eVocê subiu para o COMANDANTE!'
+        actionbar: '&eParabéns pelo COMANDANTE!'
+        title: '&eCOMANDANTE'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank7:
+    order: 7
+    tag: '&0[REI I]'
+    name: '&0REI I'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 2390
+    rankup:
+      commands:
+        - 'give {player} diamond 2'
+      messages:
+        chat: '&0O jogador &7{player} &0subiu para &7REI I&0!'
+        actionbar: '&0{player} subiu para REI I!'
+        title: '&0REI I'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&0Você subiu para o REI I!'
+        actionbar: '&0Parabéns pelo REI I!'
+        title: '&0REI I'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank8:
+    order: 8
+    tag: '&4[REI II]'
+    name: '&4REI II'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 2740
+    rankup:
+      commands:
+        - 'give {player} emerald 3'
+      messages:
+        chat: '&4O jogador &7{player} &4subiu para &7REI II&4!'
+        actionbar: '&4{player} subiu para REI II!'
+        title: '&4REI II'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&4Você subiu para o REI II!'
+        actionbar: '&4Parabéns pelo REI II!'
+        title: '&4REI II'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fRequisitos para o próximo rank:
+          &r
+          &8 * &fFragmentos: &2{fragmentos_has}&7/&a{fragmentos_need}
+          &8 * &fMoney: &2{money_has}&7/&a{money_need}
+  rank9:
+    order: 9
+    tag: '&f&9[REI III]'
+    name: '&f&9REI III'
+    release-date: '01/01/2025-10:00'
+    prices:
+      money:
+        provider: 'money'
+        price: 1000
+      fragmentos:
+        provider: 'fragmentos'
+        price: 3110
+    rankup:
+      commands:
+        - 'give {player} netherite_ingot 1'
+        - 'lp user {player} permission set vip.exclusive'
+      messages:
+        chat: '&f&9O jogador &7{player} &f&9subiu para &7REI III&f&9!'
+        actionbar: '&f&9{player} subiu para REI III!'
+        title: '&f&9REI III'
+        subtitle: '&7Parabéns, {player}!'
+      private-messages:
+        chat: '&f&9Você subiu para o REI III!'
+        actionbar: '&f&9Parabéns pelo REI III!'
+        title: '&f&9REI III'
+        subtitle: '&7Você conseguiu!'
+        balance: |
+          &6&lRANKUP! &fParabéns por alcançar o topo!
+          &r
+          &8 * &aConsidere o sistema de Prestige para continuar sua jornada!

@@ -1,0 +1,42 @@
+Permissoes:
+  Admin: 'nd.admin.bed'
+  MysteryBox: 'nd.admin.mb'
+  Fly: 'nd.fly'
+  Join: 'nd.cmd.join'
+  Spectate: 'nd.cmd.spectate'
+  MenuSelector: 'nd.menu.selector'
+  Gamemode: 'nd.gamemode'   
+  ClearChat: 'nd.clearchat'
+  Vanish: 'nd.vanish'
+  Speed: 'nd.speed'
+  #Skin: 'skins.update'
+  
+Lagg:
+  Comando: "nd.lagg.usar"
+
+Delay:
+  Spawn: 'nd.spawnsemdelay'
+
+Fake:
+  Comando: 'nd.fake'
+
+Login:
+  Desregistrar: 'nd.desregistrar'
+  VerIp: 'nd.verip'
+  VerSenha: 'nd.versenha'
+
+LoginStaff:
+  StaffAdmin: 'nd.loginstaff.admin'
+
+Spawn:
+  Outros: 'nd.spawn.outro' #Permissão para teleportar outros players
+  Spawn: 'nd.spawn' #Permissão para utilizar o comando /spawn
+
+SetSpawn:
+  Permissao: 'nd.setspawn' #Permissão para utilizar o comando /setspawn normal/vip
+
+Fly:
+  Proprio: 'nd.fly'
+  Outro: 'nd.fly.outros' #Permissão para dar fly para outros players
+  Staff: 'nd.fly.staff'
+  World: 'nd.fly.' #Depois do ponto eo nome do mundo
